@@ -5,9 +5,13 @@
 
 //#define _USE_MATH_DEFINES
 #include "math.h"
-#define M_PI 3.141592653589793f
+#define M_PI 3.141592653589793f    # definnig pi value
 #define IT 1
-
+# inputs: input.real_part
+# inputs: input.img_part
+# outputs: output.real_part
+# outputs: output.img_part
+# int p=
 //#define N 1024
 //#define N 2048
 //#define N 4096
@@ -26,8 +30,8 @@
 #define N 33554432
 //#define N 67108864
 
-float data_real[N];
-float data_imag[N];
+float data_real[N];     # real part of fourier transform
+float data_imag[N];     # imaginary part of fourier transform
 
 
 
